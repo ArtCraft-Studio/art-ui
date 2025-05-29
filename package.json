@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/art-ui.git"
+    "url": "git+https://github.com/ArtCraft-Studio/art-ui.git"
   },
   "keywords": [
     "react",
