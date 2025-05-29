@@ -41,7 +41,6 @@ describe('Button component', () => {
     fireEvent.click(screen.getByText('Click Me'));
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
-
   it('renders with an icon in the correct position', () => {
     const { rerender } = render(
       <Button icon={<span data-testid="test-icon" />} iconPosition="left">
@@ -50,7 +49,7 @@ describe('Button component', () => {
     );
 
     let iconEl = screen.getByTestId('test-icon');
-    expect(iconEl.closest('span')?.className).toContain('mr-2');
+    expect(iconEl.parentElement?.className).toContain('mr-2');
 
     rerender(
       <Button icon={<span data-testid="test-icon" />} iconPosition="right">
@@ -59,7 +58,7 @@ describe('Button component', () => {
     );
 
     iconEl = screen.getByTestId('test-icon');
-    expect(iconEl.closest('span')?.className).toContain('ml-1');
+    expect(iconEl.parentElement?.className).toContain('ml-1');
   });
 
   it('renders as impression button with correct properties', () => {
