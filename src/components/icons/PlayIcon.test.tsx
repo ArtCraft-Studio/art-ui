@@ -10,8 +10,8 @@ describe('PlayIcon component', () => {
     expect(svg).toBeInTheDocument();
     expect(svg).toHaveAttribute('width', '16');
     expect(svg).toHaveAttribute('height', '16');
-    expect(svg).toHaveClass('artui-icon');
-    expect(svg).toHaveClass('artui-icon--play');
+    expect(svg).toHaveClass('artcraftui-icon');
+    expect(svg).toHaveClass('artcraftui-icon--play');
   });
 
   it('applies custom size', () => {
@@ -34,7 +34,7 @@ describe('PlayIcon component', () => {
 
     const svg = container.querySelector('svg');
     expect(svg).toHaveClass('custom-icon');
-    expect(svg).toHaveClass('artui-icon');
+    expect(svg).toHaveClass('artcraftui-icon');
   });
 
   it('applies custom style', () => {

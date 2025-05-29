@@ -1,5 +1,5 @@
 {
-  "name": "artui",
+  "name": "artcraftui",
   "version": "0.0.0-semantically-released",
   "description": "A modern React + TypeScript component library",
   "main": "dist/cjs/index.js",

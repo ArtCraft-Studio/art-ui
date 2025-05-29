@@ -1,6 +1,6 @@
 # Art UI
 
-[![npm version](https://img.shields.io/npm/v/artui.svg)](https://www.npmjs.com/package/artui)
+[![npm version](https://img.shields.io/npm/v/artcraftui.svg)](https://www.npmjs.com/package/artcraftui)
 [![CI/CD Pipeline](https://github.com/yourusername/art-ui/actions/workflows/release.yml/badge.svg)](https://github.com/yourusername/art-ui/actions/workflows/release.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -21,19 +21,19 @@ A modern React + TypeScript component library with intuitive utility classes for
 
 ```bash
 # npm
-npm install artui
+npm install artcraftui
 
 # yarn
-yarn add artui
+yarn add artcraftui
 
 # pnpm
-pnpm add artui
+pnpm add artcraftui
 ```
 
 ## Usage
 
 ```tsx
-import { Button, PlayIcon } from 'artui';
+import { Button, PlayIcon } from 'artcraftui';
 
 function App() {
   return (
