@@ -17,7 +17,7 @@ export const PlayIcon: React.FC<IconProps> = ({
       height={size}
       viewBox="0 0 24 24"
       fill={color}
-      className={`artcraftui-icon artcraftui-icon--play inline-flex ${className}`}
+      className={`artcraft-ui-icon artcraft-ui-icon--play inline-flex ${className}`}
       style={{ ...style }}
     >
       <path d="M8 5v14l11-7z" />

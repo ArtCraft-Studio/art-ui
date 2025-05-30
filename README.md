@@ -1,7 +1,7 @@
 # Art UI
 
-[![npm version](https://img.shields.io/npm/v/artcraftui.svg)](https://www.npmjs.com/package/artcraftui)
-[![CI/CD Pipeline](https://github.com/yourusername/art-ui/actions/workflows/release.yml/badge.svg)](https://github.com/yourusername/art-ui/actions/workflows/release.yml)
+[![npm version](https://img.shields.io/npm/v/artcraft-ui.svg)](https://www.npmjs.com/package/artcraft-ui)
+[![CI/CD Pipeline](https://github.com/ArtCraft-Studio/art-ui/actions/workflows/release.yml/badge.svg)](https://github.com/ArtCraft-Studio/art-ui/actions/workflows/release.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A modern React + TypeScript component library with intuitive utility classes for building beautiful user interfaces.
@@ -21,19 +21,19 @@ A modern React + TypeScript component library with intuitive utility classes for
 
 ```bash
 # npm
-npm install artcraftui
+npm install artcraft-ui
 
 # yarn
-yarn add artcraftui
+yarn add artcraft-ui
 
 # pnpm
-pnpm add artcraftui
+pnpm add artcraft-ui
 ```
 
 ## Usage
 
 ```tsx
-import { Button, PlayIcon } from 'artcraftui';
+import { Button, PlayIcon } from 'artcraft-ui';
 
 function App() {
   return (
