@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ArtCraft-Studio/art-ui/compare/v1.0.1...v1.0.2) (2025-05-30)
+
+
+### Bug Fixes
+
+* update name to new ([b0e7da9](https://github.com/ArtCraft-Studio/art-ui/commit/b0e7da94cf23e3531cec77cd0176cdd719efba8d))
+
 ## [1.0.1](https://github.com/ArtCraft-Studio/art-ui/compare/v1.0.0...v1.0.1) (2025-05-29)
 
 
